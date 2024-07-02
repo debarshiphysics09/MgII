@@ -102,7 +102,7 @@ class Spectrum:
 
 	def __del__(self):
 		gc.collect()
-		print 'Finished with spectrum for {}'.format(self.full_name)
+		print ('Finished with spectrum for {}'.format(self.full_name))
 
 
 	def load(self):
